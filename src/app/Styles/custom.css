@@ -1,0 +1,187 @@
+/* ==========================================================================
+   #custom.root
+   ========================================================================== */
+
+:root {
+	--mvcc-body-font-size: 15px;
+	--mvcc-primary-background-color: #085646;
+	--mvcc-secondary-background-color: #007ec7;
+	--mvcc-tertiary-background-color: #484d47;
+}
+
+/* ==========================================================================
+   #custom-menu
+   ========================================================================== */
+
+.custom-menu--header > .mvcc-menu__item:hover,
+.custom-menu--sidebar > .mvcc-menu__item.is-active,
+.custom-menu--sidebar > .mvcc-menu__item:hover,
+.custom-menu--sidebar > .mvcc-menu__item:target {
+    color: #fff;
+    background-color: #007ec7;
+}
+
+/*
+   --topbar
+   ========================================================================== */
+
+/**
+ * Applies the topbar style to the menu.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-menu mvcc-menu--layout-inline custom-menu--topbar">
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ * </nav>
+ */
+
+.custom-menu--topbar > .mvcc-menu__item {
+	text-decoration: none;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+}
+
+@media (min-width: 48em) {
+     .custom-menu--topbar > .mvcc-menu__item {
+         padding-top:0;
+		 padding-bottom:0;
+     }
+ }
+
+.custom-menu--topbar > .mvcc-menu__item:hover {
+	color: #7adbda;
+}
+
+/*
+   --header
+   ========================================================================== */
+
+/**
+ * Applies the header style to the menu.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-menu mvcc-menu--layout-inline custom-menu--header">
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ * </nav>
+ */
+
+ .custom-menu--header > .mvcc-menu__item {
+ 	padding-top: .75rem;
+ 	padding-bottom: .75rem;
+ }
+.custom-menu--header > .mvcc-menu__item {
+	text-decoration: none;
+}
+
+@media (min-width: 48em) {
+	.custom-menu--header > .mvcc-menu__item {
+		padding-left: 12px;
+		padding-right:12px;
+		padding-top: 12px;
+		padding-bottom: 32px;
+	}
+}
+
+
+/*
+   --sidebar
+   ========================================================================== */
+
+/**
+ * Applies the header style to the menu.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-menu mvcc-menu--layout-inline custom-menu--header">
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ * </nav>
+ */
+ .custom-menu--sidebar {
+	 flex-direction: column;
+	 align-items: stretch;
+
+ }
+
+.custom-menu--sidebar > .mvcc-menu__item {
+
+ 	padding-top: 5px;
+	padding-left: 24px;
+	padding-bottom: 6px;
+	padding-right: 24px;
+}
+
+.custom-menu--sidebar > .mvcc-menu__item:hover {
+	text-decoration: none;
+}
+
+/*
+   --address
+   ========================================================================== */
+
+/**
+ * Applies the address style to the menu.
+ *
+ * Usage:
+ *
+ * <nav class="mvcc-menu mvcc-menu--layout-inline custom-menu--address">
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ *     <a class="mvcc-menu__item"></a>
+ * </nav>
+ */
+.custom-menu--address {
+	font-size: 14px;
+}
+
+.custom-menu--address > .mvcc-menu__item:hover {
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   #custom.box
+   ========================================================================== */
+
+/**
+ * Applies the the sidebar style to a box.
+ *
+ * Usage:
+ *
+ * <div class="mvcc-box custom--box-sidebar">
+ * </div>
+ */
+.custom-box--sidebar {
+ 	padding-top: 5px;
+	padding-left: 24px;
+	padding-bottom: 6px;
+	padding-right: 24px;
+}
+
+/* ==========================================================================
+   #custom.type
+   ========================================================================== */
+
+/*
+   --address
+   ========================================================================== */
+
+/**
+ * Applies the the address style to text.
+ *
+ * Usage:
+ *
+ * <span class="custom--type-address"></span>
+ */
+.custom--type-copyright {
+	font-style:  italic;
+}
+
+.custom-container--header {
+	padding-top: 1.5rem;
+}
