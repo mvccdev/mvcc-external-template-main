@@ -3,11 +3,23 @@
    ========================================================================== */
 
 :root {
-	--mvcc-body-font-size: 15px;
+	--mvcc-body-font-size: 16px;
+	--mvcc-h1-font-size: 32px;
+	--mvcc-h2-font-size: 20px;
+	--mvcc-h3-font-size: 18px;
+	--mvcc-h4-font-size: 16px;
 	--mvcc-primary-background-color: #085646;
 	--mvcc-secondary-background-color: #007ec7;
 	--mvcc-tertiary-background-color: #484d47;
     --mvcc-table-zebra-background-color: #ebecee;
+}
+
+/* ==========================================================================
+   #custom.typography
+   ========================================================================== */
+
+h1 {
+	text-transform: uppercase;
 }
 
 /* ==========================================================================
