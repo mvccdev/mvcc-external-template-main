@@ -16,10 +16,10 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MyType>Custom</MyType>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort />
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <IISExpressSSLPort>44303</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -98,12 +98,31 @@
   <ItemGroup>
     <Content Include="default.html" />
     <Content Include="Global.asax" />
+    <Content Include="Images\edge-footer.png" />
+    <Content Include="Images\edge-header.png" />
+    <Content Include="Images\loader.svg" />
+    <Content Include="Images\logo-header.png" />
+    <Content Include="Images\logo\logo-016x016.png" />
+    <Content Include="Images\logo\logo-032x032.png" />
+    <Content Include="Images\logo\logo-048x048.png" />
+    <Content Include="Images\logo\logo-062x062.png" />
+    <Content Include="Images\logo\logo-070x070.png" />
+    <Content Include="Images\logo\logo-1200x600.png" />
+    <Content Include="Images\logo\logo-144x144.png" />
+    <Content Include="Images\logo\logo-150x150.png" />
+    <Content Include="Images\logo\logo-152x152.png" />
+    <Content Include="Images\logo\logo-310x150.png" />
+    <Content Include="Images\logo\logo-310x310.png" />
+    <Content Include="Images\no-photo.png" />
+    <Content Include="Images\spinner.svg" />
     <Content Include="Includes\footer.html" />
     <Content Include="Includes\header.html" />
-    <Content Include="Scripts\home.js" />
+    <Content Include="Scripts\default.js" />
     <Content Include="Styles\custom.css" />
-    <Content Include="Styles\mvcc.css" />
-    <Content Include="Web.config" />
+    <Content Include="Styles\moraine.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.vb" />
