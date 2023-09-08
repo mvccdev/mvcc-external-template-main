@@ -1,6 +1,6 @@
 ![](https://img.shields.io/static/v1?label=category&message=css&color=blue)
 
-# MVCC Internal Template
+# MVCC External Template
 
 The template used to create external websites.
 
